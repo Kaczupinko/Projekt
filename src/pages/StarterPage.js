@@ -8,11 +8,12 @@ class StarterPage extends React.Component {
         return (
             <div>
                 <Header />
+                <CallToAction />
                 <HeroSection />
                 <AboutSection />
                 <FeaturesSection />
                 <TestimonialsSection />
-                <CallToAction />
+
                 <Footer />
             </div>
         )
